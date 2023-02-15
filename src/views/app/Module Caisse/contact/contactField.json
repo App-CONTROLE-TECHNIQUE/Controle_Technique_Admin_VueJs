@@ -1,0 +1,87 @@
+{
+  "fields":[
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "ID (disabled text field)",
+      "model": "contactId",
+      "readonly": true,
+      "disabled": true
+    },
+
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Nom *",
+      "model": "nom",
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Prenom",
+      "model": "prenom"
+    },
+    {
+      "type": "input",
+      "inputType": "date",
+      "label": "Date de naissance",
+      "model": "dateNaiss"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "lieu de naissance",
+      "model": "lieuDeNaiss"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Passport",
+      "model": "passport"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Permis de conduire",
+      "model": "permiDeConduire"
+    },
+    {
+      "type": "input",
+      "inputType": "number",
+      "label": "CNI",
+      "model": "cni"
+    },
+    {
+      "type": "input",
+      "inputType": "number",
+      "label": "Telephone",
+      "model": "telephone"
+    },
+    {
+      "type": "input",
+      "inputType": "email*",
+      "label": "Mail *",
+      "model": "email",
+      "validator": "email",
+      "required": true
+    },
+    {
+      "fillselect":"x",
+      "type": "select",
+      "label": "Organisation",
+      "model": "organisationId",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText":"All"
+      }
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Description",
+      "model": "description"
+    }
+  ]
+
+}

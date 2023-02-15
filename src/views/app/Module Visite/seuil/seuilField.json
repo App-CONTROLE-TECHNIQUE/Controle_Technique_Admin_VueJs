@@ -1,0 +1,94 @@
+{
+  "fields":[
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "ID (disabled text field)",
+      "model": "id",
+      "readonly": true,
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "number",
+      "label": "Value *",
+      "step":0.01,
+      "model": "value",
+      "required": true
+    },
+    {
+      "type": "select",
+      "inputType": "select",
+      "label": "Operande *",
+      "model": "operande",
+      "values": [
+        {"id":"<", "name":"<"},
+        {"id":"<=", "name":"<="},
+        {"id":">", "name":">"},
+        {"id":">=", "name":">="},
+        {"id":"=", "name":"="}
+      ],
+      "selectOptions": {
+        "hideNoneSelectedText": true,
+        "noneSelectedText": "None"
+      },
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Code Message *",
+      "model": "codeMessage",
+      "required": true
+    },
+    {
+      "type": "checkbox",
+      "label": "Décision *",
+      "model": "decision",
+      "required": true
+    },
+    {
+      "fillselect":"xxx",
+      "type": "vueMultiSelect",
+      "label": "Lexique",
+      "model": "lexique",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText": "All",
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name"
+      }
+    },
+    {
+      "fillselect":"xx",
+      "type": "vueMultiSelect",
+      "label": "Formule",
+      "model": "formule",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText": "All",
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name"
+      }
+    },
+    {
+      "fillselect":"x",
+      "type": "vueMultiSelect",
+      "label": "Organisation",
+      "model": "organisationId",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText": "All",
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name"
+      }
+    }
+  ]
+
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "text": "#",
+    "value": "carteGriseId"
+  },
+  {
+    "text": "Immatriculation",
+    "value": "numImmatriculation"
+  },
+  {
+    "text": "Propriétaire",
+    "value": "proprietaireVehicule.partenaire.nom"
+  },
+  {
+    "text": "Tel",
+    "value": "proprietaireVehicule.partenaire.telephone"
+  },
+  {
+    "text": "Chassis",
+    "value": "vehicule.chassis"
+  },
+  {
+    "text": "Lieu de délivrance",
+    "value": "lieuDedelivrance"
+  },
+  {
+    "text": "Catégorie",
+    "value": "produit.libelle"
+  },
+  {
+    "text": "Date de création",
+    "value": "createdDate"
+  },
+  {
+    "text": "Organisation",
+    "value": "organisation.nom"
+  },
+  {
+    "text": "Actions",
+    "value": "actions",
+    "sortable": false
+  }
+]

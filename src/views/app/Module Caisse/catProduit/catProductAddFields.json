@@ -1,0 +1,43 @@
+{
+
+    "fields":[
+      {
+        "type": "input",
+        "inputType": "text",
+        "label": "ID (disbled text field)",
+        "model": "categorieProduitId",
+        "readonly": true,
+        "disabled": true
+      },
+      {
+      "type": "input",
+      "inputType": "text",
+      "label": "libelle *",
+      "model": "libelle",
+      "placeholder": "Libelle",
+      "featured": true,
+      "required": true
+      },
+      {
+      "type": "input",
+      "inputType": "text",
+      "label": "Description *",
+      "model": "description",
+      "placeholder": "Description",
+      "featured": true,
+      "required": true
+      },
+      {
+        "fillselect":"x",
+        "type": "select",
+        "label": "organisation",
+        "model": "organisation",
+        "values": [],
+        "selectOptions": {
+          "oneSelectedText": "Sélectionner une organisation..."
+        },
+        "default ": {"id":1}
+      }
+    ]
+
+}

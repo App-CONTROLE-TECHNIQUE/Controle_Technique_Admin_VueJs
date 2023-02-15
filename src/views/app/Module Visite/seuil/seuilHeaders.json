@@ -1,0 +1,39 @@
+[
+  {
+    "text": "#",
+    "value": "id"
+  },
+  {
+    "text": "Value",
+    "value": "value"
+  },
+  {
+    "text": "Opérande",
+    "value": "operande"
+  },
+  {
+    "text": "Code Message",
+    "value": "codeMessage"
+  },
+  {
+    "text": "Décision",
+    "value": "decision"
+  },
+  {
+    "text": "Lexique",
+    "value": "lexique.libelle"
+  },
+  {
+    "text": "Formule",
+    "value": "formule.description"
+  },
+  {
+    "text": "Organisation",
+    "value": "organisation.nom"
+  },
+  {
+    "text": "Actions",
+    "value": "actions",
+    "sortable": false
+  }
+]

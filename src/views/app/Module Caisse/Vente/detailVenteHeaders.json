@@ -1,0 +1,22 @@
+[
+  {
+    "text": "#",
+    "value": "idDetailVente"
+  },
+  {
+    "text": "Produit",
+    "value": "produit.libelle"
+  },
+  {
+    "text": "Reference",
+    "value": "reference"
+  },
+  {
+    "text": "Prix TTC",
+    "value": "prix"
+  },
+  {
+    "text": "Date de création",
+    "value": "createdDate"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "vehiculeId":"",
+  "typeVehicule":"",
+  "carrosserie":"",
+  "placeAssise":"",
+  "chassis":"",
+  "premiereMiseEnCirculation":"",
+  "puissAdmin":"",
+  "poidsTotalCha":"",
+  "poidsVide":"",
+  "chargeUtile":"",
+  "cylindre":"",
+  "marqueVehicule":"",
+  "energie":""
+
+}

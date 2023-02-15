@@ -1,0 +1,37 @@
+[
+  {
+    "text": "#",
+    "value": "id"
+  },
+  {
+    "text": "Référence",
+    "value": "reference"
+  },
+
+  {
+    "text": "Client",
+    "value": "client"
+  },
+  {
+    "text": "Type",
+    "value": "type"
+  },
+  {
+    "text": "Etape",
+    "value": "statut"
+  },
+  {
+    "text": "Date de création",
+    "value": "createdAt"
+  },
+  {
+    "text": "Organisation",
+    "value": "organisation"
+  },
+  {
+    "text": "Actions",
+    "value": "actions",
+    "sortable": false
+  }
+]
+

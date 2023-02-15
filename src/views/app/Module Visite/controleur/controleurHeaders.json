@@ -1,0 +1,36 @@
+[
+  {
+    "text": "#",
+    "value": "idControleur"
+  },
+  {
+    "text": "Nom",
+    "value": "nom"
+  },
+  {
+    "text": "Prénom",
+    "value": "prenom"
+  },
+  {
+    "text": "Télephone",
+    "value": "telephone"
+  },
+  {
+    "text": "Mail",
+    "value": "email"
+  },
+
+  {
+    "text": "Date de création",
+    "value": "createdDate"
+  },
+  {
+    "text": "Organisation",
+    "value": "organisation.nom"
+  },
+  {
+    "text": "Actions",
+    "value": "actions",
+    "sortable": false
+  }
+]

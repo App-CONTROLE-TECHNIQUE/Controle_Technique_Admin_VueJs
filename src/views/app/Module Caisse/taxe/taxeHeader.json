@@ -1,0 +1,35 @@
+[
+  {
+    "text": "#",
+    "value": "taxeId"
+  },
+  {
+    "text": "Nom",
+    "value": "nom"
+  },
+  {
+    "text": "Valeur",
+    "value": "valeur"
+  },
+  {
+    "text": "Description",
+    "value": "description"
+  },
+  {
+    "text": "Inclus",
+    "value": "incluse"
+  },
+  {
+    "text": "Date de création",
+    "value": "createdDate"
+  },
+  {
+    "text": "Organisation",
+    "value": "organisation.nom"
+  },
+  {
+    "text": "Actions",
+    "value": "actions",
+    "sortable": false
+  }
+]

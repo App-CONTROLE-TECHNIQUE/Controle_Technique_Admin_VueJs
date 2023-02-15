@@ -1,0 +1,68 @@
+{
+  "fields":[
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "ID (disabled text field)",
+      "model": "taxeId",
+      "readonly": true,
+      "disabled": true
+    },
+
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Nom *",
+      "model": "nom",
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "number",
+      "step":0.01,
+      "label": "Valeur *",
+      "model": "valeur",
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Description",
+      "model": "description"
+    },
+    {
+      "fillselect":"xx",
+      "type": "vueMultiSelect",
+      "label": "Produit *",
+      "model": "produits",
+      "required": true,
+      "multiSelect": true,
+      "selectOptions": {
+        "multiple": true,
+        "trackBy": "id",
+        "label": "name",
+        "selectLabel": "Selected",
+        "searchable": true,
+        "taggable": true,
+        "closeOnSelect": false,
+        "hideSelected": true,
+        "tagPlaceholder": "Ajoute un nouveau produit"
+      },
+      "values": [
+
+      ]
+    },
+    {
+      "fillselect":"x",
+      "type": "select",
+      "label": "Organisation",
+      "model": "organisationId",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText":"All"
+      }
+    }
+
+  ]
+
+}

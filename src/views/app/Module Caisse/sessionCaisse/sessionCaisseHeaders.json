@@ -1,0 +1,47 @@
+[
+  {
+    "text": "#",
+    "value": "sessionCaisseId"
+  },
+  {
+    "text": "Date d'ouverture",
+    "value": "dateHeureOuverture"
+  },
+  {
+    "text": "Montant d'ouverture",
+    "value": "montantOuverture"
+  },
+  {
+    "text": "Date de fermeture",
+    "value": "valeur"
+  },
+  {
+    "text": "Montant de fermeture",
+    "value": "montantfermeture"
+  },
+  {
+    "text": "Montant de fermeture",
+    "value": "montantfermeture"
+  },
+  {
+    "text": "Ouvert",
+    "value": "active"
+  },
+  {
+    "text": "Caissier",
+    "value": "caissier.partenaire.nom"
+  },
+  {
+    "text": "Date de création",
+    "value": "createdDate"
+  },
+  {
+    "text": "Organisation",
+    "value": "organisation.nom"
+  },
+  {
+    "text": "Actions",
+    "value": "actions",
+    "sortable": false
+  }
+]

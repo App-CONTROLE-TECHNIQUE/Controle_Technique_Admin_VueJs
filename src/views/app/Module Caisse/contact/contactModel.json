@@ -1,0 +1,14 @@
+{
+  "contactId":"",
+  "nom":"",
+  "prenom":"",
+  "dateNaiss":"",
+  "lieuDeNaiss":"",
+  "passport":"",
+  "permiDeConduire":"",
+  "cni":"",
+  "telephone":"",
+  "email":"",
+  "organisationId":"",
+  "description":""
+}

@@ -1,0 +1,21 @@
+{
+
+  "carteGriseId":"",
+  "numImmatriculation":"",
+  "preImmatriculation":"",
+  "dateDebutValid":"",
+  "dateFinValid":"",
+  "ssdt_id":"",
+  "commune":"",
+  "montantPaye":"",
+  "vehiculeGage":"",
+  "genreVehicule":"",
+  "enregistrement":"",
+  "dateDelivrance":"",
+  "lieuDedelivrance":"",
+  "centre_ssdt":"",
+  "proprietaireVehicule":"",
+  "vehicule":"",
+  "produit":""
+
+}

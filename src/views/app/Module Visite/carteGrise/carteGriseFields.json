@@ -1,0 +1,152 @@
+{
+  "fields":[
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "ID (disabled text field)",
+      "model": "carteGriseId",
+      "readonly": true,
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Immatriculation *",
+      "model": "numImmatriculation",
+      "required": true,
+      "styleClasses": "width-50"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Immatriculation précédente",
+      "model": "preImmatriculation",
+      "styleClasses": "width-50"
+    },
+    {
+      "type": "input",
+      "inputType": "date",
+      "label": "Début validité",
+      "model": "dateDebutValid"
+    },
+    {
+      "type": "input",
+      "inputType": "date",
+      "label": "Fin de validité *",
+      "model": "dateFinValid",
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "SSDT_ID",
+      "model": "ssdt_id"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Commune",
+      "model": "commune"
+    },
+    {
+      "type": "input",
+      "inputType": "number",
+      "label": "Montant",
+      "model": "montantPaye"
+    },
+    {
+      "type": "checkbox",
+      "label": "Gagé",
+      "model": "vehiculeGage"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Genre de Véhicule",
+      "model": "genreVehicule"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Enregistrement",
+      "model": "enregistrement"
+    },
+    {
+      "type": "input",
+      "inputType": "date",
+      "label": "Date de délivrance",
+      "model": "dateDelivrance"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Lieu de délivrance",
+      "model": "lieuDedelivrance"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Centre SSDT",
+      "model": "centre_ssdt"
+    },
+    {
+      "fillselect":"xx",
+      "type": "vueMultiSelect",
+      "label": "Véhicule *",
+      "model": "vehicule",
+      "values": [],
+      "selectOptions": {
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name"
+      },
+      "required":true
+    },
+    {
+      "fillselect":"xxxx",
+      "type": "vueMultiSelect",
+      "label": "Catégorie *",
+      "model": "produit",
+      "values": [],
+      "selectOptions": {
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name"
+      },
+      "required":true
+    },
+    {
+      "fillselect":"xxx",
+      "type": "vueMultiSelect",
+      "label": "Propriétaire *",
+      "model": "proprietaire",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText": "All",
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name"
+      },
+      "required":true
+    },
+    {
+      "fillselect":"x",
+      "type": "vueMultiSelect",
+      "label": "Organisation",
+      "model": "organisationId",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText": "All",
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name"
+      }
+
+    }
+
+  ]
+}

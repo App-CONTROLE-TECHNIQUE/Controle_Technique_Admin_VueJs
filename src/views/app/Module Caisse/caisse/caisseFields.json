@@ -1,0 +1,47 @@
+{
+
+  "fields":[
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "ID (disbled text field)",
+      "model": "caisse_id",
+      "readonly": true,
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Libelle *",
+      "model": "libelle",
+      "placeholder": "Libelle",
+      "featured": true,
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Description *",
+      "model": "description",
+      "placeholder": "Description",
+      "featured": true,
+      "required": true
+    },
+    {
+      "fillselect":"x",
+      "type": "vueMultiSelect",
+      "label": "Organisation *",
+      "model": "organisationId",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText": "All",
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name",
+        "allowEmpty": false
+      }
+    }
+  ]
+
+}

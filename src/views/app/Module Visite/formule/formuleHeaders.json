@@ -1,0 +1,23 @@
+[
+  {
+    "text": "#",
+    "value": "id"
+  },
+  {
+    "text": "Description",
+    "value": "description"
+  },
+  {
+    "text": "Date de création",
+    "value": "createdDate"
+  },
+  {
+    "text": "Organisation",
+    "value": "organisation.nom"
+  },
+  {
+    "text": "Actions",
+    "value": "actions",
+    "sortable": false
+  }
+]

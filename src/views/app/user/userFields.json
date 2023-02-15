@@ -1,0 +1,45 @@
+{
+
+  "fields":[
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "ID (disabled text field)",
+      "model": "utilisateurId",
+      "readonly": true,
+      "disabled": true
+    },
+    {
+      "fillselect":"xx",
+      "type": "vueMultiSelect",
+      "label": "User",
+      "model": "user",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText": "All",
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name"
+      }
+
+    },
+    {
+      "fillselect":"x",
+      "type": "vueMultiSelect",
+      "label": "Organisation *",
+      "model": "organisationId",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText": "All",
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name",
+        "allowEmpty": false
+      }
+
+    }
+  ]
+
+}

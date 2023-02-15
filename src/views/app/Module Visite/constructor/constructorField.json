@@ -1,0 +1,35 @@
+{
+  "fields":[
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "ID (disabled text field)",
+      "model": "id",
+      "readonly": true,
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Nom *",
+      "model": "name",
+      "required": true
+    },
+    {
+      "fillselect":"x",
+      "type": "vueMultiSelect",
+      "label": "Organisation",
+      "model": "organisationId",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText": "All",
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name"
+      }
+
+    }
+
+  ]
+}

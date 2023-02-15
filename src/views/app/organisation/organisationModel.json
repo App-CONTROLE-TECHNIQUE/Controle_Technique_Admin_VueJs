@@ -1,0 +1,17 @@
+{
+  "id": "",
+  "nom": "",
+  "adresse":"",
+  "tel1":"",
+  "tel2":"",
+  "devise":"",
+  "lang":"",
+  "numContribuable":"",
+  "region":"",
+  "parent":false,
+  "parentOrganisation":1
+}
+
+
+
+

@@ -1,0 +1,105 @@
+{
+  "fields":[
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "ID (disabled text field)",
+      "model": "idControleur",
+      "readonly": true,
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Nom *",
+      "model": "nom",
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Prenom",
+      "model": "prenom"
+    },
+    {
+      "type": "input",
+      "inputType": "date",
+      "label": "Date de naissance",
+      "model": "dateNaiss"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "lieu de naissance",
+      "model": "lieuDeNaiss"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Passport",
+      "model": "passport"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Permis de conduire",
+      "model": "permiDeConduire"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "CNI *",
+      "model": "cni",
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Agremment *",
+      "model": "agremment",
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "number",
+      "label": "Telephone *",
+      "model": "telephone",
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "email",
+      "label": "Mail *",
+      "model": "email",
+      "required": true
+    },
+    {
+      "fillselect":"xx",
+      "type": "vueMultiSelect",
+      "label": "User",
+      "model": "user",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText": "User",
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name"
+      }
+    },
+    {
+      "fillselect":"x",
+      "type": "vueMultiSelect",
+      "label": "Organisation",
+      "model": "organisationId",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText": "All",
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[
+    { "text":"#",
+      "value":"categorieProduitId"
+    },
+    {
+      "text": "Libelle",
+      "value": "libelle"
+    },
+    {
+      "text": "Description",
+      "value": "description"
+    },
+    {
+      "text": "Organisation",
+      "value": "organisation.nom"
+    },
+    {
+      "text": "Actions",
+      "value": "actions",
+      "sortable": false
+    }
+]
+
+
+

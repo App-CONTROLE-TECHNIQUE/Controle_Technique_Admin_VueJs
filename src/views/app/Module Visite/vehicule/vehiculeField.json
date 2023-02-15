@@ -1,0 +1,110 @@
+{
+  "fields":[
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "ID (disabled text field)",
+      "model": "vehiculeId",
+      "readonly": true,
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Type",
+      "model": "typeVehicule"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Carrosserie",
+      "model": "carrosserie"
+    },
+    {
+      "type": "input",
+      "inputType": "number",
+      "label": "Place Assise",
+      "model": "placeAssise"
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Chassis *",
+      "model": "chassis",
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "date",
+      "label": "1ère Circulation *",
+      "model": "premiereMiseEnCirculation",
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "number",
+      "label": "Puissance Administrative",
+      "model": "puissAdmin"
+    },
+    {
+      "type": "input",
+      "inputType": "number",
+      "label": "Poids total en charge (kg)",
+      "model": "poidsTotalCha"
+    },
+    {
+      "type": "input",
+      "inputType": "number",
+      "label": "Poids à vide (kg)",
+      "model": "poidsVide"
+    },
+    {
+      "type": "input",
+      "inputType": "number",
+      "label": "Charge Utile (kg)",
+      "model": "chargeUtile"
+    },
+    {
+      "type": "input",
+      "inputType": "number",
+      "label": "Cylindré (cm3)",
+      "model": "cylindre"
+    },
+    {
+      "fillselect":"xx",
+      "type": "select",
+      "label": "Marque de Vehicule",
+      "model": "marqueVehicule",
+      "values": [],
+      "selectOptions": {
+        "hideNoneSelectedText": true
+      }
+    },
+    {
+      "fillselect":"xxx",
+      "type": "select",
+      "label": "Energie",
+      "model": "energie",
+      "values": [],
+      "selectOptions": {
+        "hideNoneSelectedText": true
+      }
+    },
+    {
+      "fillselect":"x",
+      "type": "vueMultiSelect",
+      "label": "Organisation",
+      "model": "organisationId",
+      "values": [],
+      "selectOptions": {
+        "noneSelectedText": "All",
+        "optionsLimit":3,
+        "multiple": false,
+        "id":"id",
+        "label":"name"
+      }
+
+    }
+
+  ]
+}

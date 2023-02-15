@@ -1,0 +1,17 @@
+{
+  "proprietaireVehiculeId":"",
+  "nom":"",
+  "prenom":"",
+  "dateNaiss":"",
+  "lieuDeNaiss":"",
+  "passport":"",
+  "permiDeConduire":"",
+  "cni":"",
+  "telephone":"",
+  "email":"",
+  "organisationId":"",
+  "caisse":"",
+  "user":"",
+  "description":""
+
+}

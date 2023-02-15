@@ -1,0 +1,58 @@
+{
+  "fields":[
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "police d'assurance *",
+      "model": "police",
+      "placeholder": "police d'assurance",
+      "featured": true,
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "date",
+      "label": "date de début validité *",
+      "model": "date_debut",
+      "placeholder": "date de début validité",
+      "featured": true,
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "date",
+      "label": "date de fin validité",
+      "model": "date_fin",
+      "placeholder": "date de fin validité",
+      "featured": true,
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Puissance Fiscale",
+      "model": "pf",
+      "placeholder": "Puissance Fiscale",
+      "featured": true,
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Montant Prime Assurance",
+      "model": "primeAssurance",
+      "placeholder": "Montant Prime Assurance",
+      "featured": true,
+      "required": true
+    },
+    {
+      "type": "submit",
+      "label": "",
+      "caption": "Submit form",
+      "class":"form-control",
+      "validateBeforeSubmit": true,
+      "onSubmit":"this.submit"
+
+    }
+  ]
+}

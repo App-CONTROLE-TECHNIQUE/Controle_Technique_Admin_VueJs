@@ -1,0 +1,119 @@
+{
+  "fields":[
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "ID (disabled text field)",
+      "model": "idVisite",
+      "readonly": true,
+      "disabled": true
+    },
+    {
+      "type": "checkbox",
+      "label": "Contre Visite ?",
+      "model": "contreVisite",
+      "disabled": true
+    },
+    {
+      "type": "checkbox",
+      "label": "En cours ?",
+      "model": "encours",
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "date",
+      "label": "Début",
+      "model": "dateDebut",
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "date",
+      "label": "Fin",
+      "model": "dateFin",
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Statut",
+      "model": "statut",
+      "values": [
+        {"id":"0", "name":"maj"},
+        {"id":"1", "name":"A inspecter"},
+        {"id":"2", "name":"En cours test"},
+        {"id":"3", "name":"A signer"},
+        {"id":"4", "name":"A imprimer"},
+        {"id":"5", "name":"Refusé"},
+        {"id":"6", "name":"A certifier"},
+        {"id":"7", "name":"Accepté"},
+        {"id":"8", "name":"A approuver"}
+      ],
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Nom du Caissier",
+      "model": "caissier.partenaire.nom",
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Nom du Caissier",
+      "model": "caissier.partenaire.prenom",
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Immatriculation",
+      "model": "carteGrise.numImmatriculation",
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Chassis",
+      "model": "carteGrise.vehicule.chassis",
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Nom Proprietaire du véhicule",
+      "model": "carteGrise.proprietaireVehicule.partenaire.nom",
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Nom Proprietaire du véhicule",
+      "model": "carteGrise.proprietaireVehicule.partenaire.prenom",
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Chassis",
+      "model": "carteGrise.vehicule.chassis",
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Produit",
+      "model": "carteGrise.produit.libelle",
+      "disabled": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Organisation",
+      "model": "organisation.nom",
+      "disabled": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "text": "#",
+    "value": "id"
+  },
+  {
+    "text": "Nom",
+    "value": "nom"
+  },
+  {
+    "value": "adresse",
+    "text": "adresse"
+  },
+  {
+    "text": "Téléphone 1",
+    "value": "tel1"
+  },
+  {
+    "text": "Téléphone 2",
+    "value": "tel2"
+  },
+  {
+    "text": "Actions",
+    "value": "actions",
+    "width": "15%",
+    "sortable": false
+  }
+]

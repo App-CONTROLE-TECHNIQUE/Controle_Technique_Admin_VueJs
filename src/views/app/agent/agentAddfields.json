@@ -1,0 +1,43 @@
+{
+  "fields":[
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Prénom *",
+      "model": "firstName",
+      "default": false,
+      "featured": true,
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "text",
+      "label": "Nom *",
+      "model": "lastname",
+      "placeholder": "Nom",
+      "featured": true,
+      "required": true
+    },
+    {
+      "type": "input",
+      "inputType": "mail",
+      "label": "Mail *",
+      "model": "mail",
+      "placeholder": "Email",
+      "featured": true,
+      "required": true
+    },
+    {
+      "forsearch":"x",
+      "type": "select",
+      "label": "Role",
+      "model": "role",
+      "values": [],
+      "selectOptions": {
+        "oneSelectedText": "Sélectionner une organisation..."
+      }
+
+    }
+
+  ]
+}

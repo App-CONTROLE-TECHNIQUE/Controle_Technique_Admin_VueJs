@@ -1,0 +1,27 @@
+[
+  {
+    "text": "#",
+    "value": "id"
+  },
+  {
+    "text": "Prénom",
+    "value": "firstName"
+  },
+  {
+    "text": "Nom",
+    "value": "lastName"
+  },
+  {
+    "text": "Mail",
+    "value": "email"
+  },
+  {
+    "text": "Rôle",
+    "value": "role"
+  },
+  {
+    "text": "Actions",
+    "value": "actions",
+    "sortable": false
+  }
+]

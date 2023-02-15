@@ -1,0 +1,35 @@
+[
+    {
+      "text": "#",
+      "value": "id"
+    },
+    {
+      "text": "Souscripteur",
+      "value": "souscripteur"
+    },
+    {
+      "text": "Immatriculation",
+      "value": "vehicule"
+    },
+    {
+      "text": "prime Assurance",
+      "value": "primeAssurance"
+    },
+    {
+      "text": "Date de Debut",
+      "value": "date_debut"
+    },
+    {
+      "text": "Date de Fin",
+      "value": "date_fin"
+    },
+    {
+      "text": "Actions",
+      "value": "actions",
+      "sortable": false
+    }
+]
+
+
+
+

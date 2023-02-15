@@ -1,0 +1,31 @@
+[
+  {
+    "text": "#",
+    "value": "idMachine"
+  },
+  {
+    "text": "N° Série",
+    "value": "numSerie"
+  },
+  {
+    "text": "Fabriquant",
+    "value": "fabriquant"
+  },
+  {
+    "text": "Modèle",
+    "value": "constructorModel.name"
+  },
+  {
+    "text": "Date de création",
+    "value": "createdDate"
+  },
+  {
+    "text": "Organisation",
+    "value": "organisation.nom"
+  },
+  {
+    "text": "Actions",
+    "value": "actions",
+    "sortable": false
+  }
+]

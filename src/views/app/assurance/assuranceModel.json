@@ -1,0 +1,14 @@
+{
+  "add":"http://192.168.8.115:8083/api/v1/assurances",
+  "id": "",
+  "organisation": 1,
+  "police":"",
+  "date_debut":"",
+  "date_fin":"",
+  "pf":"0025",
+  "montant":"1200"
+}
+
+
+
+
